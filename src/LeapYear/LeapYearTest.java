@@ -64,9 +64,9 @@ public class LeapYearTest {
 
     @Test
     public void shouldPassOnDojoNOTLeapYearDataSetTest(){
-        int[] leapYears = {1742, 1889, 1951, 2011, };
-        for (int leapYear : leapYears) {
-            assertFalse(LeapYear.isLeapYear(leapYear));
+        int[] noLeapYears = {1742, 1889, 1951, 2011 };
+        for (int noLeapYear : noLeapYears) {
+            assertFalse(LeapYear.isLeapYear(noLeapYear));
         }
     }
 }
